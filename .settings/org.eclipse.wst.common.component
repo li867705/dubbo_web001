@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="day15_dubboWeb">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-jee/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <dependent-module archiveName="day15_dubboManager_POJO-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/day15_dubboManager_POJO/day15_dubboManager_POJO">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="day15_dubboManager_Interface-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/day15_dubboManager_Interface/day15_dubboManager_Interface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="day15_dubboWeb"/>
+        <property name="java-output-path" value="/day15_dubboWeb/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
