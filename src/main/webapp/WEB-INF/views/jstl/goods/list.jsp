@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="main">
-        <h2 class="title"><span>商品管理</span></h2>
+        <h2 class="title"><span>商品管理---李月月</span></h2>
         <form action="deletes" method="post">
         <table border="1" width="100%" class="tab">
             <tr>
